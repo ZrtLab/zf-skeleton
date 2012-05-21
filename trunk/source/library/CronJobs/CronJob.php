@@ -3,7 +3,7 @@
 /**
  * Description of CronJob
  *
- * @author Computer
+ * @author slovacus
  */
 class CronJobs_CronJob
 {
