@@ -1,31 +1,23 @@
 <?php
 
-class Zrt_Application_Resource_View
-    extends Zend_Application_Resource_ResourceAbstract
+class Zrt_Application_Resource_View extends Zend_Application_Resource_View
 {
 
-    protected $_view;
-
-    public function init()
-    {
-        return $this->getView();
-    }
-
+    /**
+     * @author slovacus
+     * @return type 
+     */
     public function getView()
     {
+        $this->_view = parent::getView();
+
         if (null === $this->_view) {
 
             $options = $this->getOptions();
 
             $view = new Zend_View();
 
-
-            $view->doctype($options['doctype']);
             $view->headTitle($options['title']);
-            $view->headMeta()
-                ->appendName('keywords', 'limesoft,cms');
-
-
             $viewRenderer = Zend_Controller_Action_HelperBroker::getStaticHelper('ViewRenderer');
             $viewRenderer->setView($view);
 

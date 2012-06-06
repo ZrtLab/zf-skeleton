@@ -1,7 +1,9 @@
 <?php
 
-class Zrt_Application_Resource_Session
-    extends Zend_Application_Resource_Session
+/**
+ *@author slovacus 
+ */
+class Zrt_Application_Resource_Session extends Zend_Application_Resource_Session
 {
 
     private $session;
@@ -9,7 +11,6 @@ class Zrt_Application_Resource_Session
     public function init()
     {
         parent::init();
-
         $this->session = new Zend_Session_Namespace('session', true);
     }
 
