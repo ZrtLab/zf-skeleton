@@ -1,0 +1,3 @@
+[submodule "Zrt"]
+        path = src/library/Zrt
+        url = git://home/slovacus/Resource/Repositories/Libraries/PHP/Zrt.git
