@@ -12,11 +12,9 @@ class Zrt_Controller_Plugin_Layout
 
         $moduleName = $request->getModuleName();
 
-
         if ( isset( $config[$moduleName]['resources']['layout']['layout'] ) )
         {
             $layoutScript = $config[$moduleName]['resources']['layout']['layout'];
-
             Zend_Layout::getMvcInstance()->setLayout( $layoutScript );
         }
 
