@@ -5,8 +5,7 @@
  *
  * @author Luis Mayta
  */
-class Zrt_Controller_Action_Helper_Auth
-    extends Zend_Controller_Action_Helper_Abstract
+class Zrt_Controller_Action_Helper_Auth extends Zend_Controller_Action_Helper_Abstract
 {
 
     protected $view;
