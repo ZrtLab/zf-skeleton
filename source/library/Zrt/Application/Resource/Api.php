@@ -1,7 +1,6 @@
 <?php
 
-class Zrt_Application_Resource_Api
-    extends Zend_Application_Resource_ResourceAbstract
+class Zrt_Application_Resource_Api extends Zend_Application_Resource_ResourceAbstract
 {
 
     public function init()

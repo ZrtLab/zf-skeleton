@@ -1,7 +1,6 @@
 <?php
 
-class Zrt_Application_Resource_Auth
-    extends Zend_Application_Resource_ResourceAbstract
+class Zrt_Application_Resource_Auth extends Zend_Application_Resource_ResourceAbstract
 {
 
     private $auth;
