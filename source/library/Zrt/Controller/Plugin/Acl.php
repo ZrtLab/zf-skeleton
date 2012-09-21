@@ -9,7 +9,7 @@
 /**
  * Description of Acl
  *
- * @author mlakl
+ * @author slovacus
  */
 class Zrt_Controller_Plugin_Acl
         extends Zend_Controller_Plugin_Abstract
