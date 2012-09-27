@@ -1,1 +1,35 @@
-<?php echo $this->layout()->content; ?>
+<?=$this->doctype()?>
+
+<html lang="en">
+    <head>
+        <?=$this->headTitle()?>
+        
+        <?=$this->headMeta()?>
+        
+        <?=$this->headLink()?>
+        
+        <?=$this->headScript()?>
+        
+        <?=$this->headStyle()?>
+        
+    </head>
+    <body>
+
+        <?=$this->render('_topbar.phtml');?>
+
+        <div class="container-fluid">
+            
+            <?=$this->render('_sidebar.phtml');?>
+            
+            <div class="content">
+                
+                <?=$this->render('_messages.phtml');?>
+                
+                <?=$this->layout()->content?>
+
+                <?=$this->render('_footer.phtml');?>
+            </div>
+        </div>
+
+    </body>
+</html>

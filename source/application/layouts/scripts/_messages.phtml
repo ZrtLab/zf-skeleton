@@ -1,0 +1,20 @@
+<?php if (count($this->messages)): ?>
+
+    <?php
+    foreach ($this->messages as $m):
+        ?>
+        <? if (is_string($m)): ?>
+            <div class="alert alert-error">
+                <?= $m ?>
+            </div>
+        <? elseif (is_object($m)): ?>
+            <div class="alert alert-<?= $m->level ?>">
+                <?php echo($m->message); ?>
+            </div>
+
+        <? endif; ?>
+
+    <?php endforeach; ?>
+
+<?php endif; ?>
+

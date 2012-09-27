@@ -1,0 +1,21 @@
+<div class="topbar">
+    <div class="topbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="#">Solviv</a>
+            <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <? if ($this->isAuth): ?>
+                <p class="pull-right">
+                    Bienvenido
+                    <a href="#"><?= $this->authData->email ?></a>
+                    <a href="<?=
+            $this->url(array(), 'logout', true);
+                ?>">[Cerrar Sesión]</a>
+                </p>
+            <? endif; ?>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+/* main.css */
+body {
+    padding-top: 60px;
+}
+body#loginbox {
+    background-color: #EEEEEE;
+    padding-top: 200px;
+}
+body#loginbox #hint{
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+body#loginbox form{
+    background: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+body#loginbox #login-element{
+    text-align: center;
+}
+
+#fmsgs{
+    width: 450px;
+    margin: 0px auto;
+}
+#fmsgs .alert-message p{
+    text-align: center;
+}
+
+
+.zfForm.form-stacked label{
+    margin-top: 8px;
+}

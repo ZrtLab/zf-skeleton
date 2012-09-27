@@ -1,7 +1,6 @@
 <?php
 
-class Zrt_Controller_Action
-    extends Zend_Controller_Action
+class Zrt_Controller_Action extends Zend_Controller_Action
 {
 
     protected $_url;
@@ -14,9 +13,7 @@ class Zrt_Controller_Action
 
     public function init()
     {
-
         $this->view->messages = $this->_helper->flashMessenger->getMessages();
-
         $this->_url =
             $this->getRequest()->getModuleName()
             . '/' . $this->getRequest()->getControllerName();
