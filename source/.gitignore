@@ -1,0 +1,8 @@
+logs/
+cache/
+application/configs/environment.php
+application/configs/application.ini
+.buildpath
+.project
+.settings
+/nbproject/private/

@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Casting.net\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-04 12:26+0100\n"
+"PO-Revision-Date: 2010-11-04 12:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t;_\n"
+"X-Poedit-Basepath: /Users/christophervalles/projects/casting\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: application/modules\n"
+
+#: application/modules/frontend/controllers/AdvertiserController.php:28
+msgid "Advertisers"
+msgstr ""
+
+#: application/modules/frontend/controllers/CastingController.php:28
+msgid "Castings"
+msgstr ""
+
+#: application/modules/frontend/controllers/ErrorController.php:36
+msgid "404 Page not found!"
+msgstr ""
+
+#: application/modules/frontend/controllers/ErrorController.php:37
+msgid "The page you requested was not found."
+msgstr ""
+
+#: application/modules/frontend/controllers/ErrorController.php:42
+msgid "Error!"
+msgstr ""
+
+#: application/modules/frontend/controllers/ErrorController.php:43
+msgid "An unexpected error occurred with your request. Please try again later."
+msgstr ""
+
+#: application/modules/frontend/controllers/ErrorController.php:65
+msgid "Flag and Flipper not found"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:37
+msgid "Login"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:69
+msgid "Password Recovery"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:84
+msgid "An email has been sended to your account. Please check your inbox"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:92
+msgid "There is not user registered with the email provided"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:110
+msgid "Reset password"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:130
+msgid "Password changed successfully"
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:140
+msgid "There was an error changing you password and we are working to solve it."
+msgstr ""
+
+#: application/modules/frontend/controllers/ProfileController.php:149
+#: application/modules/frontend/controllers/ProfileController.php:164
+msgid "Token invalid or expired"
+msgstr ""
+
+#: application/modules/frontend/controllers/TalentController.php:28
+msgid "Talents"
+msgstr ""
+
+#: application/modules/frontend/forms/LoginForm.php:28
+msgid "Username"
+msgstr ""
+
+#: application/modules/frontend/forms/LoginForm.php:44
+msgid "Password"
+msgstr ""
+
+#: application/modules/frontend/forms/LoginForm.php:60
+msgid "Keep me logged in"
+msgstr ""
+
+#: application/modules/frontend/forms/LoginForm.php:68
+msgid "Log in"
+msgstr ""
+
+#: application/modules/frontend/forms/PasswordRecoveryForm.php:28
+msgid "Email"
+msgstr ""
+
+#: application/modules/frontend/forms/PasswordResetForm.php:44
+msgid "Retype password"
+msgstr ""
+
+#: application/modules/frontend/forms/PasswordResetForm.php:94
+msgid "Save password"
+msgstr ""
+
+#: application/modules/frontend/models/Mailer.php:23
+msgid "Reset your casting.net password"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:4
+msgid "About us"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:5
+msgid "Terms and conditions"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:6
+msgid "Blog"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:7
+msgid "Help"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:17
+#, php-format
+msgid "Contact us redirecting to the email: %1$s"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:20
+#, php-format
+msgid "To advertise with us contact: %1$s"
+msgstr ""
+
+#: application/modules/frontend/views/partials/footer.phtml:26
+msgid "Copyright © 2010 Casting.net — All Rights Reserved."
+msgstr ""
+
+#: application/modules/frontend/views/partials/user_actions.phtml:7
+msgid "Sign up"
+msgstr ""
+
+#: application/modules/frontend/views/partials/user_actions.phtml:9
+msgid "Welcome back"
+msgstr ""
+
+#: application/modules/frontend/views/partials/user_actions.phtml:10
+msgid "Log out"
+msgstr ""
+
+#: application/modules/frontend/views/partials/user_actions.phtml:15
+msgid "Create casting"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/casting/index.phtml:5
+msgid "All castings"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/casting/index.phtml:6
+msgid "Matching castings"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/index/about.phtml:1
+msgid "About"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/index/membership.phtml:1
+msgid "Membership"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/index/terms.phtml:1
+msgid "Terms"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/profile/login.phtml:14
+msgid "Don't have a Casting.net account?"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/profile/login.phtml:14
+msgid "Sign up here!"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/profile/login.phtml:18
+msgid "Invalid username or password"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/profile/login.phtml:23
+msgid "Forgot password?"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:5
+msgid "All talents"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:6
+msgid "Actors"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:7
+msgid "Models"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:8
+msgid "Musicians"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:9
+msgid "Singers"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:10
+msgid "Presenters"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:11
+msgid "Showmen"
+msgstr ""
+
+#: application/modules/frontend/views/scripts/talent/index.phtml:12
+msgid "Others"
+msgstr ""
+
+#~ msgid "It Works"
+#~ msgstr "Funciona!"

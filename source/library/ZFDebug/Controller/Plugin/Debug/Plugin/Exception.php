@@ -7,7 +7,7 @@
  * @subpackage Plugins
  * @copyright  Copyright (c) 2008-2009 ZF Debug Bar Team (http://code.google.com/p/zfdebug)
  * @license    http://code.google.com/p/zfdebug/wiki/License     New BSD License
- * @version    $Id: Exception.php 289 2009-12-10 10:47:02Z huuphuoc $
+ * @version    $Id: Exception.php 23 2009-05-01 12:43:13Z andreas.pankratz@s-square.de $
  */
 
 /**

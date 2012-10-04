@@ -7,7 +7,7 @@
  * @subpackage Plugins
  * @copyright  Copyright (c) 2008-2009 ZF Debug Bar Team (http://code.google.com/p/zfdebug)
  * @license    http://code.google.com/p/zfdebug/wiki/License     New BSD License
- * @version    $Id: Cache.php 289 2009-12-10 10:47:02Z huuphuoc $
+ * @version    $Id: Cache.php 70 2009-05-15 12:01:16Z gugakfugl $
  */
 
 /**
